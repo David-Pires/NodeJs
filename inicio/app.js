@@ -1,3 +1,4 @@
+//require é utilizado e esse valor deve ser armazenado em uma função
 var somaFuncao = require('./calculadora')
 
 function multi(a,b) {
