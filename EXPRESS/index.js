@@ -13,7 +13,7 @@ app.get("/blog", function(req, res) {
 })
 
 app.get("/canal/youtube", function(req, res) {
-  res.send("<h1>Bem vindo a minha rota</h1>")
+  res.send("<h1>Bem vindo a m</h1>")
 })
 
 app.listen(4000,function(erro) {
