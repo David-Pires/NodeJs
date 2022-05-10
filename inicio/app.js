@@ -1,18 +1,10 @@
 //require é utilizado e esse valor deve ser armazenado em uma função
-var somaFuncao = require('./calculadora')
-
-function multi(a,b) {
-  return a * b 
-}
-function sub(a,b) {
-  return a - b 
-}
-function div(a,b) {
-  return a / b 
-}
+var calculadora = require('./calculadora')
 
 
-console.log(somaFuncao(6,6));
+
+
+console.log(calculadora.soma(1,1));
 
 // var resultadoSoma = somaFuncao(2,2)
 // var resultadoMulti = multi(2,8)

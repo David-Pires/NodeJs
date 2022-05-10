@@ -2,7 +2,23 @@ function soma(a,b) {
   return a + b 
 }
 
-module.exports = soma
+function multi(a,b) {
+  return a * b 
+}
+function sub(a,b) {
+  return a - b 
+}
+function div(a,b) {
+  return a / b 
+}
+
+
+module.exports = {
+  soma,
+  multi,
+  sub,
+  div
+}
 //module.exports pra exportar função/modulo
 
 /* É possível exportar variáveis 
