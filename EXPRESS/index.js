@@ -16,6 +16,19 @@ app.get("/canal/youtube", function(req, res) {
   res.send("<h1>Bem vindo a m</h1>")
 })
 
+app.get("/ola/:nome/:empresa", function(req, res) {
+  var nome = req.params.nome
+  var empresa = req.params.empresa
+
+  res.send(`<h1>Oi ${nome} ${empresa}</h1>`)
+})
+//req: são os dados enviados  pelo usuario
+//res: é a resposta que será enviada ao usuário
+//parametro nome
+//posso ter quantos parametros eu quiser
+// é necessário passar parametro mais valor 
+// neste caso /ola/AlgumaCoisa
+
 app.listen(4000,function(erro) {
   if (erro) {
     console.log("ocorreu um erro!")
