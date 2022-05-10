@@ -1,4 +1,18 @@
+function soma(a,b) {
+  return a + b 
+}
 
+console.log(soma(50,50));
+
+
+
+
+
+
+
+
+  
+  
   // var mostrarSite = true
   // const site = "www.david.com"
 
