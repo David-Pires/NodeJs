@@ -1,6 +1,5 @@
-function soma(a,b) {
-  return a + b 
-}
+var somaFuncao = require('./calculadora')
+
 function multi(a,b) {
   return a * b 
 }
@@ -11,7 +10,7 @@ function div(a,b) {
   return a / b 
 }
 
-var resultadoSoma = soma(2,2)
+var resultadoSoma = somaFuncao(2,2)
 var resultadoMulti = multi(2,8)
 var resultadoSub = sub(2,2)
 var resultadoDiv = div(12,2)
