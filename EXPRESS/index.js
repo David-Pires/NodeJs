@@ -8,8 +8,15 @@ app.get("/",function(req, res) {
   res.send('Bem vindo ao Guia de Dev')
 })
 
-app.get("/blog", function(req, res) {
-  res.send("Bem vindo ao meu blog")
+app.get("/blog/:artigo?", function(req, res) {
+  var artigo = req.params.artigo
+
+  if(artigo) {
+    res.send(`<h2>teste ${artigo}</h2>`)
+  } else {
+    res.send("Bem vindo ao meu blog")
+  }
+  
 })
 
 app.get("/canal/youtube", function(req, res) {
