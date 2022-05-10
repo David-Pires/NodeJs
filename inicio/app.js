@@ -1,9 +1,21 @@
 function soma(a,b) {
   return a + b 
 }
+function multi(a,b) {
+  return a * b 
+}
+function sub(a,b) {
+  return a - b 
+}
+function div(a,b) {
+  return a / b 
+}
 
-console.log(soma(50,50));
-
+var resultadoSoma = soma(2,2)
+var resultadoMulti = multi(2,8)
+var resultadoSub = sub(2,2)
+var resultadoDiv = div(12,2)
+console.log(resultadoSoma, resultadoMulti, resultadoSub, resultadoDiv);
 
 
 
