@@ -11,11 +11,14 @@ function div(a,b) {
   return a / b 
 }
 
-var resultadoSoma = somaFuncao(2,2)
-var resultadoMulti = multi(2,8)
-var resultadoSub = sub(2,2)
-var resultadoDiv = div(12,2)
-console.log(resultadoSoma, resultadoMulti, resultadoSub, resultadoDiv);
+
+console.log(somaFuncao(6,6));
+
+// var resultadoSoma = somaFuncao(2,2)
+// var resultadoMulti = multi(2,8)
+// var resultadoSub = sub(2,2)
+// var resultadoDiv = div(12,2)
+// console.log(resultadoSoma, resultadoMulti, resultadoSub, resultadoDiv);
 
 
 
