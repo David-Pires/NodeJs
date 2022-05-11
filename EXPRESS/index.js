@@ -20,7 +20,12 @@ app.get("/blog/:artigo?", function(req, res) {
 }) 
 
 app.get("/canal/youtube", function(req, res) {
-  var canal = req.query['canal']
+  var canal = req.query["canal"]
+  if(canal) {
+    res.send(canal)
+  } else {
+    res.send("Nenhum canal fornecido!")
+  }
   res.send(canal)
 })
 
