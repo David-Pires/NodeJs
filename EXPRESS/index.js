@@ -17,10 +17,11 @@ app.get("/blog/:artigo?", function(req, res) {
     res.send("Bem vindo ao meu blog")
   }
   
-})
+}) 
 
 app.get("/canal/youtube", function(req, res) {
-  res.send("<h1>Bem vindo a m</h1>")
+  var canal = req.query['canal']
+  res.send(canal)
 })
 
 app.get("/ola/:nome/:empresa", function(req, res) {
