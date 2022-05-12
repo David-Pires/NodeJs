@@ -1,4 +1,4 @@
 
 npm install express --save
 
-lnpm install nodemon -g
+npm install nodemon -g
