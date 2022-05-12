@@ -1,14 +1,14 @@
-const express = require("express") // importar o express
-const aplicativo = express() // iniciando
+const express = require("express")
+const aplicativo = express()
 
-aplicativo.get("/", function(req, res){
- res.send("Meu teste de Rota")
+aplicativo.get("/", function(req, res) {
+  res.send("New Route")
 })
 
-aplicativo.listen(4000, function(erro) {
-  if(erro) {
-    console.log("ocorreu um erro");
+aplicativo.listen(4000, function(e) {
+  if(e) {
+    console.log('ocorreu um erro');
   } else {
-    console.log("servidor iniciado");
+    console.log('Servidor iniciado');
   }
 })
