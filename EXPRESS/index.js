@@ -1,14 +1,8 @@
-const express = require("express")//importando express
-const app = express()//iniciando express
+const express2 = require("express")
+const minhaAplicação = express2()
 
-app.get("/",function(req, res) {
-  res.send("Bem vindo a minha rota")
+minhaAplicação.get("/", function(req,res) {
+  res.send("New Route")
 })
 
-app.listen(4000,function(erro) {
-  if(erro) {
-    console.log("Ocorre um erro");
-  } else {
-    console.log("Servidor iniciado com sucesso!");
-  }
-})
+minhaAplicação.listen(4000)
