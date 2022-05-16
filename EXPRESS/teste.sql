@@ -4,10 +4,11 @@ INSERT INTO usuarios(nome, email, idade) VALUES(
   "Gulando",
   "gulando@email.com",
   85
-)
+) -- // inserindo dados na tabela
 
-SELECT * FROM usuarios WHERE idade = 8;
 
-SELECT * FROM usuarios WHERE  idade >= 18;
+SELECT * FROM usuarios WHERE idade = 8; -- selecionando coluna 
 
-DELETE FROM usuarios WHERE NOME = "David";
+SELECT * FROM usuarios WHERE  idade >= 18; -- selecionar usando operador lógico 
+
+DELETE FROM usuarios WHERE NOME = "David";  -- deletar utilizando WHERE 
