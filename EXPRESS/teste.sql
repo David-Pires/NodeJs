@@ -9,3 +9,5 @@ INSERT INTO usuarios(nome, email, idade) VALUES(
 SELECT * FROM usuarios WHERE idade = 8;
 
 SELECT * FROM usuarios WHERE  idade >= 18;
+
+DELETE FROM usuarios WHERE NOME = "David";
