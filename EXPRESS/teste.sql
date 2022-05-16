@@ -1,5 +1,7 @@
-CREATE TABLE usuarios(
-  nome VARCHAR(50),
-  email VARCHAR(100),
-  idade INT
-);
+-- // name, email, idade
+
+INSERT INTO usuarios(nome, email, idade VALUES(
+  "Gulando",
+  "gulando@email.com",
+  85
+)
