@@ -30,3 +30,4 @@ INSERT INTO usuarios(nome, email, idade) VALUES(
 ) -- // inserindo dados na tabela
 
 
+-- Plataforma de perguntas e respostas Utilizando as tecnologias EXPRESS com MySQL integrados com HTML e CSS e componentes de BOOTSTRAP. 
